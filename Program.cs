@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace project1
+namespace domashno2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("wywedete desettichno chislo");
-            int chislo = int.Parse(Console.ReadLine());
-            string b = Convert.ToString(chislo, 2);
-            Console.WriteLine("dwyichnoto chislo e:{0}",dwyichno);
+            string chislo = "21";
+            int chislo2 = Convert.ToInt32(chislo, 16);
+            string chislo3 = Convert.ToString(chislo2, 2);
+            Console.WriteLine(chislo3);
         }
     }
 }
